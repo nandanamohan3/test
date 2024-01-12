@@ -1,0 +1,31 @@
+.row{
+    background-color: aqua;
+    height: 600px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* start center end */
+    justify-content: space-between;
+
+    /* space-around space-evenly space-between */
+    flex-direction: row;
+
+    /* column column-reverse row row-reverse */
+
+
+}
+.col{
+    background-color: cornflowerblue;
+    height: 300px;
+    width: 200px;
+    margin: 10px;
+}
+.col1{
+    background-color: brown;
+}
+.col2{
+    background-color: rgb(89, 28, 163);
+}
+.col3{
+    background-color: greenyellow;
+}
